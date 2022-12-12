@@ -53,9 +53,8 @@ async def save_group(bot, message):
                         await (temp.MELCOW['welcome']).delete()
                     except:
                         pass
-                temp.MELCOW['welcome'] = await message.reply_video(
-                video="",                                               
-                                                 caption=f'<b>Hello 👋🏻, {u.mention} ✯ My Name is Teamisaimini Request\n✯ I Can Provide MOVIES,SERIES And Lot More\n✯ Don't Waste Your Time Looking To Add ME To Your Group , I'm Only For @Teamisaimini\n✯ TEAM - @Teamisaimini',
+                temp.MELCOW['welcome'] = await message.reply_text(                                               
+                                                 caption=f''<b>Hello 👋🏻, {u.mention} ✯ My Name is Teamisaimini Request\n✯ I Can Provide MOVIES,SERIES And Lot More\n✯ Don't Waste Your Time Looking To Add ME To Your Group , I'm Only For @Teamisaimini\n✯ TEAM - @Teamisaimini',
                                                  reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🚫 Group Rules 🚫', url='http://t.me/MissRose_bot?start=rules_-1001650088903') ] ] )
                 )
 
