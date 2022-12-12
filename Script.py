@@ -11,7 +11,7 @@ def is_enabled(value, default):
         return default
 
 class script(object):
-    HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://droplink.co/ref/KarthikUK')
+    HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://droplink.co/ref/isaimini')
     START_TXT = environ.get("START_TXT", '''<b>Hello {} 👋🏻\n✯ My Name is Teamisaimini Request
 ✯ I Can Provide MOVIES,SERIES And Lot More
 ✯ Don't Waste Your Time Looking To Add ME To Your Group , I'm Only For @Teamisaimini
